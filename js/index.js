@@ -5,7 +5,7 @@ var vm = new Vue({
   data() {
     return {
        items: [],
-       baseUrlTodos : "http://localhost:3000/todos",
+       baseUrlTodos : "https://apilisttitle.herokuapp.com/todos",
        searchInput : ""
     }
   },
